@@ -1,0 +1,9 @@
+<h1>Hello {{name}}</h1>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="nav-link" [routerLink]="['/youtubers']">La liste des Youtubers</a> <br>
+	<a class="nav-link" [routerLink]="['/add-youtuber']">Ajouter un youtuber</a>
+</nav>
+
+<!--Here we display the corresponding component-->
+<router-outlet></router-outlet>

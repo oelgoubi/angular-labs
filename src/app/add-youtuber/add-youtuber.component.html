@@ -1,0 +1,24 @@
+<div class="form-bloc">
+	<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+
+		<div>
+			<label for="name">
+      Name
+    </label>
+			<input id="name" type="text" formControlName="name">
+   </div>
+			<div>
+				<label for="followers">
+      Followers
+    </label>
+				<input id="followers" type="number" formControlName="followers">
+   </div>
+				<div>
+					<label for="description">Description</label>
+					<input id="description" type="text" formControlName="description">
+   </div>
+
+					<button class="button" type="submit">Submit</button>
+
+	</form>
+</div>

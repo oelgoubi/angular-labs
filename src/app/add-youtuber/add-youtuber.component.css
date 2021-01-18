@@ -1,0 +1,11 @@
+.form-bloc {
+  margin-top: 10px;
+  background-color: skyblue;
+  padding: 10px;
+  align-items: center;
+}
+
+.form-bloc div {
+  margin: 5px;
+  justify-content: center;
+}
